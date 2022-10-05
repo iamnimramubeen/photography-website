@@ -1,0 +1,110 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .topnav{
+      font-size: xx-large;
+      width:100%;
+  }
+  
+  .contactusinfo{
+      text-align: center;
+  }
+  
+  .form-control{
+      width:600px;
+      padding:20px 15px;
+      
+  }
+  
+  .Submitbtn{
+      width:150px;
+      padding:8px 8px;
+      background-color: #0b57d0;
+      cursor: pointer;
+      border-radius: 5px;
+      color: white;
+  
+  }
+  .Submitbtn:hover{
+      background-color: #1a73e8;
+  }
+  
+  .emailbtn{
+      width:130px;
+      padding:9px 9px;
+      background-color: #0b57d0;
+      cursor: pointer;
+      border-radius: 5px;
+      color: white;
+  }
+  
+  .emailbtn:hover{
+      background-color: #1a73e8;
+  }
+  
+  .horiimg{
+      float:left;
+      width:95%;
+     height:180px;
+     margin:100px auto;
+     background:#f4f4f4;
+     border:1px solid #000;
+     overflow-y: hidden;
+     
+     white-space:nowrap;
+     box-shadow:0 0 10px rgba(0, 0, 0, 0.422);
+  }
+  
+  .horiimg img{
+      margin:10px 5px 0 5px;
+     max-width:100%;
+     max-height:100%;
+  }
